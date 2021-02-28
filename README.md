@@ -7,18 +7,19 @@ on the basis of a training set of data containing observations (or instances) wh
 >>>* Ex. Prediction of heart disease( Yes or No)
 
 ![classification](https://user-images.githubusercontent.com/75840165/109419751-04d5c900-79f5-11eb-93b6-004d2875116b.png)
-----------
+------------------------------------------------------------------
 
 >>* [Regression](https://en.wikipedia.org/wiki/Regression_analysis):- In statistical modeling, regression analysis is a set of statistical processes for estimating the relationships between a dependent 
 variable (often called the 'outcome variable') and one or more independent variables (often called 'predictors', 'covariates', or 'features').
 >>>* Ex. Prediction of number (price prediction)
 
 ![Regression](https://user-images.githubusercontent.com/75840165/109419745-ff787e80-79f4-11eb-9f1d-55646eb0dce8.png)
-------
+--------------------------------------------------
 
 ## Repository Guide:-
-Here is list for every project in this repository and link to introduction of preject
+Here is list for every project in this repository and link to introduction of project
 
+--------------------------------------------------
 ### Classification:-
 >* [Telco Customers Churn Prediction](#telco-churn-predictor)
 >* [Heart Disease Prediction](#heart-disease-predictor)
@@ -45,14 +46,14 @@ Here is list for every project in this repository and link to introduction of pr
 >* Building model 
 >>* [Selecting models](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html)
 >>* Train and Evaluate model
->>* If more than one depending on initial accuracy take for Hyperparameter Tuning - RandomSearchCV, GridSearchCV
+>>* If more than one depending on initial accuracy take for Hyperparameter Tuning - [RandomSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html#sklearn.model_selection.RandomizedSearchCV), [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
 >>* Predict on test set
 <img src="https://user-images.githubusercontent.com/75840165/109416819-79553b80-79e6-11eb-9b75-a0861894af1c.png" height=500, width=700/>
 
 ## Project Introduction's:-(for detail discription visit respective project)
 
 ### Classification:-
-
+-----------------------------------------------
 #### Telco Churn Predictor:- [Visit](https://github.com/AdiShirsath/Machine_learning_projects/tree/main/Classification_Problems/Telco_churn_prediction)
 >* This project is to predict if customer will leave telco or not, using machine learning
 >* In this we used XGBoost classifier to predict it and got 78.64 accuracy
@@ -70,7 +71,7 @@ Here is list for every project in this repository and link to introduction of pr
 >>* Hypertunnig parameters for GBC learning_rate= 0.01, max_depth= 4, max_features= 16, min_samples_leaf= 1, min_samples_split=20, n_estimators= 500.
 
 ### Regression:-
-
+------------------------------------------------------------------
 #### Bulldozer Price Predictor:- [Visit](https://github.com/AdiShirsath/Machine_learning_projects/tree/main/Regression_Problems/Bulldozers_price_prediction_project)
 >* Prediction of sale price of bulldozer on basis of its specifications like year made, productSize and 50 more features 
 >* Here we used RandomForestRegressor and got pretty good score of 85% r^2 
