@@ -21,12 +21,12 @@ Here is list for every project in this repository and link to introduction of pr
 
 --------------------------------------------------
 ### Classification:-
->* [Telco Customers Churn Prediction](#telco-churn-predictor)
+>* <a href='#Telco-churn'>Telco Customers Churn Prediction</a>
 >* [Heart Disease Prediction](#heart-disease-predictor)
 >* [Titanic Survival Prediction](#titanic-survial-predictor)
 
 ### Regression:-
->* [Bulldozers Price Prediction](#bulldozer-price-predictor)
+>* <p id='Bulldozers'>Bulldozers Price Prediction<p>
 >* [House Price Prediction](#house-price-predictor)
 
 ## Tools And Workflow:-
@@ -54,7 +54,7 @@ Here is list for every project in this repository and link to introduction of pr
 
 ### Classification:-
 -----------------------------------------------
-#### Telco Churn Predictor:- [Visit](https://github.com/AdiShirsath/Machine_learning_projects/tree/main/Classification_Problems/Telco_churn_prediction)
+<h4 id='Telco-churn'>Telco Churn Predictor<h4>:- [Visit](https://github.com/AdiShirsath/Machine_learning_projects/tree/main/Classification_Problems/Telco_churn_prediction)
 >* This project is to predict if customer will leave telco or not, using machine learning
 >* In this we used XGBoost classifier to predict it and got 78.64 accuracy
 >>* by using  gamma=0, learning_rate=0.1, max_depth=4, reg_lambda=10, scale_pos_weight=2, subsample=0.9, colsample_bytree=0.5, which we got by hyperparameter tunning XGBClassifier
