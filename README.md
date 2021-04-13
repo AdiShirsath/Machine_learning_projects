@@ -32,7 +32,7 @@ Here is list for every project in this repository and link to introduction of pr
 
 ## Tools And Workflow:-
 
-<img src="https://user-images.githubusercontent.com/75840165/109419228-72ccc100-79f2-11eb-82cf-f0b70930c5d2.jpg" height=300/>
+![machine-learning-life-cycle](https://user-images.githubusercontent.com/75840165/114572787-6dbb8c80-9c95-11eb-8865-d8bf0d677f68.png)
 
 * Collect Data
 * Exploratory Data Analysis:- (with visualization)
@@ -104,8 +104,8 @@ Here is list for every project in this repository and link to introduction of pr
 * Predicting fare of flight based on given information
 * Trained Lasso, Gradient Bosst, Random Forest on full data
 * Random forest had best 80 r2 so took this for hyperparameter tuning got 83 r2
-* Using **Flask** with help of html5-css3 built web-app and Deployed on **Heroku**
-* To view **demo** of web app [visit][Flight-fare]
+* Using ***Flask*** with help of html5-css3 built web-app and Deployed on ***Heroku***
+* To view ***demo*** of web app [visit][Flight-fare]
   
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
