@@ -48,10 +48,11 @@ Here is list for every project in this repository and link to introduction of pr
 >* [Selecting models](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html)
 >* Train and Evaluate model
 >* If more than one depending on initial accuracy take for Hyperparameter Tuning - [RandomSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html#sklearn.model_selection.RandomizedSearchCV), [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
->* Predict on test set
-<img src="https://user-images.githubusercontent.com/75840165/109416819-79553b80-79e6-11eb-9b75-a0861894af1c.png" height=500, width=700/>
+* Predict on test set
 * Build web-app Flask, HTML5, CSS3 or Streamlit
 * Deploy on cloud
+
+<img src="https://user-images.githubusercontent.com/75840165/109416819-79553b80-79e6-11eb-9b75-a0861894af1c.png" height=500, width=700/>
 
 ## Project Introduction's:-(for detail discription visit respective project)
 
