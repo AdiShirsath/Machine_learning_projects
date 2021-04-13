@@ -1,17 +1,17 @@
 # Machine_learning_projects
 
 ## Overview:-
->* This repository contains projects on ML Classification and Regression
->>* [Classification](https://en.wikipedia.org/wiki/Statistical_classification):-  classification is the problem of identifying to which of a set of categories (sub-populations) a new observation belongs, 
+* This repository contains projects on ML Classification and Regression
+>* [Classification](https://en.wikipedia.org/wiki/Statistical_classification):-  classification is the problem of identifying to which of a set of categories (sub-populations) a new observation belongs, 
 on the basis of a training set of data containing observations (or instances) whose category membership is known.
->>>* Ex. Prediction of heart disease( Yes or No)
+>>* Ex. Prediction of heart disease( Yes or No)
 
 ![classification](https://user-images.githubusercontent.com/75840165/109419751-04d5c900-79f5-11eb-93b6-004d2875116b.png)
 ------------------------------------------------------------------
 
->>* [Regression](https://en.wikipedia.org/wiki/Regression_analysis):- In statistical modeling, regression analysis is a set of statistical processes for estimating the relationships between a dependent 
+>* [Regression](https://en.wikipedia.org/wiki/Regression_analysis):- In statistical modeling, regression analysis is a set of statistical processes for estimating the relationships between a dependent 
 variable (often called the 'outcome variable') and one or more independent variables (often called 'predictors', 'covariates', or 'features').
->>>* Ex. Prediction of number (price prediction)
+>>* Ex. Prediction of number (price prediction)
 
 ![Regression](https://user-images.githubusercontent.com/75840165/109419745-ff787e80-79f4-11eb-9f1d-55646eb0dce8.png)
 --------------------------------------------------
@@ -34,22 +34,24 @@ Here is list for every project in this repository and link to introduction of pr
 
 <img src="https://user-images.githubusercontent.com/75840165/109419228-72ccc100-79f2-11eb-82cf-f0b70930c5d2.jpg" height=300/>
 
->* Collect Data
->* Exploratory Data Analysis:- (with visualization)
+* Collect Data
+* Exploratory Data Analysis:- (with visualization)
 >>* Pandas, Matplotlib, [Seaborn](https://seaborn.pydata.org/)
->* Feature Engineering:-
->>* Handle missing values and Categorical Features - sklearn
->>* Outlier's (depending on which model to use)
->>* Feature Scaling (depending on model)
->* Split data
->* Feature selection:-
->>* Correlation matrix, [VariationThreshold](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.VarianceThreshold.html)
->* Building model 
->>* [Selecting models](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html)
->>* Train and Evaluate model
->>* If more than one depending on initial accuracy take for Hyperparameter Tuning - [RandomSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html#sklearn.model_selection.RandomizedSearchCV), [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
->>* Predict on test set
+* Feature Engineering:-
+>* Handle missing values and Categorical Features - sklearn
+>* Outlier's (depending on which model to use)
+>* Feature Scaling (depending on model)
+* Split data
+* Feature selection:-
+>* Correlation matrix, [VariationThreshold](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.VarianceThreshold.html)
+* Building model 
+>* [Selecting models](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html)
+>* Train and Evaluate model
+>* If more than one depending on initial accuracy take for Hyperparameter Tuning - [RandomSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html#sklearn.model_selection.RandomizedSearchCV), [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
+>* Predict on test set
 <img src="https://user-images.githubusercontent.com/75840165/109416819-79553b80-79e6-11eb-9b75-a0861894af1c.png" height=500, width=700/>
+* Build web-app Flask, HTML5, CSS3 or Streamlit
+* Deploy on cloud
 
 ## Project Introduction's:-(for detail discription visit respective project)
 
