@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction</title>
+    <link rel='stylesheet' href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+     <!-- heading -->
+      <nav class='navbar'>
+        <div class='navbox'>
+           <div class='navhead'>
+            <h1><span>Flight Fare Predictor</span></h1>
+            </div>
+        </div>
+      </nav>
+
+      <div class='prediction'> 
+          <div>
+            <h2 class="prediction-head">Predicted Price For your Flight is:  &#8377; {{ prediction }}</h2>
+          </div>
+          <a href="{{ url_for('home_page') }}">Try Again</a>
+      </div>
+
+      <footer class='pred-foot'>
+        <h3>&#169; 2021 Aditya Shirsath </h3>
+      </footer>
+      
+
+</body>
+</html>
