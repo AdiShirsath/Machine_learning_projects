@@ -5,6 +5,8 @@ This is Natural Language Processing project. We are classifying intent of input 
 ## Data:-
 Data contains 209 sentences with their respective intent. Now we have nearly 80 sentences with Departure Time intent and 120+ Finding Connection.
 
+![Dataset](https://user-images.githubusercontent.com/75840165/127762650-9ae03b06-04da-4f7b-99f2-2e444be2efe5.png)
+
 ## Training 
 
 ### Training LSTM models:-
