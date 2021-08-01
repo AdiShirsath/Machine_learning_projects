@@ -7,14 +7,23 @@ Data contains 209 sentences with their respective intent. Now we have nearly 80 
 
 ![Dataset](https://user-images.githubusercontent.com/75840165/127762650-9ae03b06-04da-4f7b-99f2-2e444be2efe5.png)
 
-## How to see Demo:-
+## API:-
+Visit this [link]() to go on API.
+Here is Demo of API in GIF.
 
+
+
+## How to use Demo Python File:-
+1. `pip install -r requirements.txt`
+2. Run `python Demo.py`
+3. After asking input sentence and press enter.
+4. Wait few seconds to get prediction.
 
 
 ## Training 
 
 ### Training LSTM models:-
-Code for this is in Training_LSTM.ipynb notebook.
+Code for this is in Training_LSTM.ipynb notebook. Following models are trained for 20 epochs each.
 
 | Models  |Model Description                                           |Validation Score|   
 |---------|------------------------------------------------------------|----------------| 
