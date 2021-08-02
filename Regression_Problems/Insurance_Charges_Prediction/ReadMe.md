@@ -3,18 +3,16 @@
 This is Natural Language Processing project. We are classifying intent of input sentence into two categories `Departure Time` or `Finding Connection`.
 
 ## API:-
-- [Link]() for API.
+- [Link](https://intent-predictor.herokuapp.com/) for API.
 - Demo of API.
 
 ![API-Demo](https://user-images.githubusercontent.com/75840165/127870422-1737baef-3e91-4ff6-b68a-0e5a624089f5.gif)
 
 
-
 ## How to use Demo Python File:-
 1. `pip install -r requirements.txt`
 2. Run `python Demo.py`
-3. After asking input sentence and press enter.
-
+3. Input sentence when asked and press enter.
 
 
 ## Data:-
@@ -39,7 +37,7 @@ Code for this is in Training_LSTM.ipynb notebook. Following models are trained f
 | Model8  | Embedding(500) + Bi-LSTM(100)+2 Dense(512 & 128)           |    97.48%      |     
 | Model9  | Embedding(500) + Bi-LSTM(500) +1 Dense(512 & 128)          |    96.50%      |    
 
-***Model 6 was the bestt model which is also used in API***.
+***Model 6 was the best model which is trained on full data and also used in API***.
 
 ### Training Bert:-
 I have used Tensorflow Hub for training Bert. Code for this is present in Training_Bert File.
